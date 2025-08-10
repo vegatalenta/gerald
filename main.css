@@ -1282,17 +1282,16 @@ a.bouton-premium:active {
 .btn-download {
     display: inline-block;
     padding: 12px 28px;
-    background-color: #0056b3;
+    background: linear-gradient(135deg, #011020, #011f2b);
     color: white;
     font-weight: 700;
     font-size: 1.1rem;
     border-radius: 40px;
     text-decoration: none;
-    box-shadow: 0 6px 15px rgba(0, 86, 179, 0.4);
+  
     transition: background-color 0.3s ease;
     user-select: none;
   }
   .btn-download:hover {
-    background-color: #003f7d;
-    box-shadow: 0 8px 20px rgba(0, 63, 125, 0.6);
-  }
+     transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(1, 80, 76, 0.7);
