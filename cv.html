@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gerald Ravalison</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* === RESET === */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f1115;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #00bfff;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    /* === HEADER === */
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header img {
+      width: 120px;
+      border-radius: 50%;
+      border: 3px solid #00bfff;
+      box-shadow: 0 0 20px #00bfff;
+    }
+
+    .header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5em;
+      margin-top: 15px;
+      color: #00bfff;
+    }
+
+    .header p {
+      font-size: 1.1em;
+      color: #aaa;
+    }
+
+    /* === SECTION TITLES === */
+    h2.section-title {
+      font-size: 1.5em;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      border-left: 5px solid #00bfff;
+      padding-left: 15px;
+      color: #00bfff;
+    }
+
+    /* === CONTENT BLOCKS === */
+    .block {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      padding-left: 15px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "▸";
+      position: absolute;
+      left: 0;
+      color: #00bfff;
+    }
+
+    /* === GRID SECTIONS === */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #1a1d23;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,191,255,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-title {
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #00bfff;
+    }
+
+    /* === FOOTER === */
+    .footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 600px) {
+      .header h1 {
+        font-size: 2em;
+      }
+      h2.section-title {
+        font-size: 1.3em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+  <h1>GERALD RAVALISON</h1>
+  <p>Spécialiste en Cybersécurité • Développeur Web & IA • Fondateur Business VTM</p>
+  <p>Antananarivo | +261 32 16 281 53 | nosilavardlrage@gmail.com</p>
+  <p>🌐 <a href="https://vegatalenta.github.io/gerald/" target="_blank" rel="noopener noreferrer">https://vegatalenta.github.io/gerald/</a></p>
+</div>
+
+    <h2 class="section-title">Profil</h2>
+    <div class="block">
+<p>Étudiant en informatique passionné par la cybersécurité, le développement web, et la gestion de projets. Actuellement en formation, je développe mes compétences techniques tout en menant des projets concrets chez Business VTM pour accompagner la transformation numérique avec des solutions innovantes et sécurisées.</p>
+    </div>
+
+    <section>
+  <h2 class="section-title">Compétences Techniques</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">Développement Web</div>
+      <p>HTML, CSS, JavaScript, PHP, React, Node.js</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Cybersécurité</div>
+      <p>Hacking éthique, audits de sécurité, pentesting, SIEM</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Intelligence Artificielle & Automatisation</div>
+      <p>Python, Machine Learning, Chatbots, Automatisation</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Cloud & DevOps</div>
+      <p>Docker, Kubernetes, Microsoft Azure, GitOps</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Gestion de Projet</div>
+      <p>Méthodologies Agile, Scrum, Jira, Trello</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Design & UX</div>
+      <p>Adobe Suite, Figma, UI/UX Design</p>
+    </div>
+  </div>
+</section>
+
+ <h2 class="section-title">Formations</h2>
+<ul>
+  <li>Licence 2 en Génie Informatique – CNTEMAD (2023 - en cours)</li>
+  <li>Licence 2 en Management & Gestion d’entreprise – Université Référence (2024 - en cours)</li>
+  <li>BAC & BEP Technique Professionnel – Lycée Technique Professionnel de Fort-Dauphin (2019 - 2022)</li>
+</ul>
+
+<h2 class="section-title">Expériences</h2>
+<ul>
+  <li>Fondateur & Responsable Opérationnel – Business VTM (Depuis 2023)</li>
+  <li>Chargé de relation clientèle – HERI Madagascar (2023 - 2025)</li>
+  <li>Superviseur d’enquêteurs – Ipsos International (Avril - Juin 2024)</li>
+  <li>Enquêteur terrain – Ipsos International (Fév. - Juin 2023)</li>
+  <li>Responsable Multi-Services – Talents TANA (Sep. - Déc. 2022)</li>
+  <li>Secrétaire bénévole – Église Forward in Faith (Depuis Déc. 2022)</li>
+</ul>
+
+
+
+  <h2 class="section-title">Certifications</h2>
+  <ul>
+    <li>Hacker Éthique (CEH)</li>
+    <li>Certificat DELF A2 – Français</li>
+    <li>Adobe Master Collection – Design Graphique</li>
+    <li>Permis de Conduire – Catégorie AB</li>
+  </ul>
+
+  <h2 class="section-title">Langues</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">Malagasy</div>
+      <p>Natif</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Français</div>
+      <p>Avancé</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Anglais</div>
+      <p>Intermédiaire</p>
+    </div>
+  </div>
+
+  <h2 class="section-title">Loisirs</h2>
+  <ul>
+    <li>Veille technologique & cybersécurité</li>
+    <li>Jeux vidéo & e-sport</li>
+    <li>Photographie & design graphique</li>
+    <li>Randonnée & nature</li>
+  </ul>
+
+
+    <div class="footer">
+      © 2055 Gerald Ravalison 
+    </div>
+  </div>
+</body>
+</html>
